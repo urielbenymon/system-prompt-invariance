@@ -1,0 +1,19 @@
+Data License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+
+Copyright (c) 2026 Uriel Benymon, Albert Ming Wei, Zhicheng Guo, Xinbei Qiu, Clara Resnick
+
+All files under data/ are licensed under CC BY-SA 4.0:
+https://creativecommons.org/licenses/by-sa/4.0/
+Full legal code: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+These files contain or are derived from BiGGen Bench
+(Kim et al., 2024; https://huggingface.co/datasets/prometheus-eval/BiGGen-Bench),
+which is itself distributed under CC BY-SA 4.0. Changes made: selection of the
+system_prompt_vs_instruction task, character-level and lexical perturbations of
+system prompts, model responses generated from those prompts, automated and
+human grades of those responses, and derived analysis outputs.
+
+Model-generated text in this directory was produced by third-party models
+(DeepSeek V3, DeepSeek R1, GPT-4o, o3-mini, GPT-4 Turbo, Llama 3.1 70B
+Instruct, Claude Opus 4) via OpenRouter and remains subject to the respective
+providers' terms of use.

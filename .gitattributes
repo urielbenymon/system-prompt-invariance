@@ -1,0 +1,2 @@
+# Preserve exact bytes so files match the SHA-256 hashes recorded in the manifests.
+* -text

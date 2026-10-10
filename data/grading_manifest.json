@@ -1,0 +1,71 @@
+{
+  "experiment_stage": "official_autograding",
+  "purpose": "Grade the frozen 108 official response cells using three independent evaluator language models.",
+  "created_at_utc": "2026-08-23T21:09:29.381923+00:00",
+  "input_file": "responses_official.jsonl",
+  "input_file_sha256": "7e220505cfa590d67a45ab0c937ad24a87a58a53ad4b85b1b74de511f1a477d8",
+  "expected_response_cells": 108,
+  "graders": 3,
+  "expected_judgments": 324,
+  "openrouter_endpoint": "https://openrouter.ai/api/v1/chat/completions",
+  "provider_fallbacks_allowed": false,
+  "grader_max_tokens": 2048,
+  "request_timeout_seconds": 300,
+  "max_attempts": 3,
+  "grader_models": [
+    {
+      "grader_key": "gpt4_turbo",
+      "display_name": "GPT-4 Turbo",
+      "model_id": "openai/gpt-4-turbo",
+      "provider_slug": "openai",
+      "provider_display": "OpenAI",
+      "temperature": 0.0,
+      "top_p": 0.9
+    },
+    {
+      "grader_key": "llama_3_1_70b_instruct",
+      "display_name": "Llama 3.1 70B Instruct",
+      "model_id": "meta-llama/llama-3.1-70b-instruct",
+      "provider_slug": "deepinfra",
+      "provider_display": "DeepInfra (Turbo)",
+      "temperature": 0.0,
+      "top_p": 0.9
+    },
+    {
+      "grader_key": "claude_opus_4",
+      "display_name": "Claude Opus 4",
+      "model_id": "anthropic/claude-opus-4",
+      "provider_slug": "google-vertex",
+      "provider_display": "Google Vertex",
+      "temperature": 0.0,
+      "top_p": 0.9
+    }
+  ],
+  "grading_protocol": {
+    "framework": "BiGGen/Prometheus-style absolute direct assessment",
+    "score_scale": "integer 1-5",
+    "expected_output_format": "Feedback: ... [RESULT] N",
+    "adaptation": "Unlike BiGGen's released run_response_eval.py, which passes the instance input as orig_instruction, this experiment includes both the exact condition-specific system instruction and the user input because the independent variable is a system-instruction transformation.",
+    "reference_answer_provided": true,
+    "instance_specific_rubric_provided": true,
+    "pairwise_comparison": false
+  },
+  "decoding": {
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "repetition_penalty": null,
+    "repetition_penalty_note": "BiGGen reports repetition_penalty=1.03, but it is intentionally omitted here because it is not a consistently supported parameter across the heterogeneous OpenAI, Meta-hosted, and Anthropic grader endpoints."
+  },
+  "retry_policy": {
+    "transient_api_failures_retryable": true,
+    "successful_api_judgment_regenerated_automatically": false,
+    "unparsable_successful_output_regenerated_automatically": false
+  },
+  "environment": {
+    "python_version": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "requests_version": "2.34.2"
+  },
+  "script_file": "scripts/02_autograde_responses_adjusted.py",
+  "script_file_sha256": "53b5604d38528cdecbf72e7905a7899722edbca23b61b146f3fe201b34833fed"
+}

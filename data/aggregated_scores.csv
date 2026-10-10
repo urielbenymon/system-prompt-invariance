@@ -1,0 +1,109 @@
+generation_cell_id,family_id,base_id,condition_code,condition_label,response_model_key,response_model_display,grader_scores,median_score
+grounding_system_prompt_vs_instruction_0__C0_base::deepseek_v3,0,grounding_system_prompt_vs_instruction_0,C0_base,base,deepseek_v3,DeepSeek V3,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_0__C0_base::deepseek_r1,0,grounding_system_prompt_vs_instruction_0,C0_base,base,deepseek_r1,DeepSeek R1,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_0__C0_base::gpt4o,0,grounding_system_prompt_vs_instruction_0,C0_base,base,gpt4o,GPT-4o,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_0__C0_base::o3_mini,0,grounding_system_prompt_vs_instruction_0,C0_base,base,o3_mini,o3-mini,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_0__character_swap::deepseek_v3,0,grounding_system_prompt_vs_instruction_0,C1_character_swap,character_swap,deepseek_v3,DeepSeek V3,5.0;3.0;3.0,3.0
+grounding_system_prompt_vs_instruction_0__character_swap::deepseek_r1,0,grounding_system_prompt_vs_instruction_0,C1_character_swap,character_swap,deepseek_r1,DeepSeek R1,3.0;4.0;3.0,3.0
+grounding_system_prompt_vs_instruction_0__character_swap::gpt4o,0,grounding_system_prompt_vs_instruction_0,C1_character_swap,character_swap,gpt4o,GPT-4o,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_0__character_swap::o3_mini,0,grounding_system_prompt_vs_instruction_0,C1_character_swap,character_swap,o3_mini,o3-mini,3.0;4.0;3.0,3.0
+grounding_system_prompt_vs_instruction_0__C2_lexical_substitution::deepseek_v3,0,grounding_system_prompt_vs_instruction_0,C2_lexical_substitution,lexical_substitution,deepseek_v3,DeepSeek V3,3.0;4.0;3.0,3.0
+grounding_system_prompt_vs_instruction_0__C2_lexical_substitution::deepseek_r1,0,grounding_system_prompt_vs_instruction_0,C2_lexical_substitution,lexical_substitution,deepseek_r1,DeepSeek R1,3.0;3.0;3.0,3.0
+grounding_system_prompt_vs_instruction_0__C2_lexical_substitution::gpt4o,0,grounding_system_prompt_vs_instruction_0,C2_lexical_substitution,lexical_substitution,gpt4o,GPT-4o,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_0__C2_lexical_substitution::o3_mini,0,grounding_system_prompt_vs_instruction_0,C2_lexical_substitution,lexical_substitution,o3_mini,o3-mini,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_1__C0_base::deepseek_v3,1,grounding_system_prompt_vs_instruction_1,C0_base,base,deepseek_v3,DeepSeek V3,5.0;4.0;4.0,4.0
+grounding_system_prompt_vs_instruction_1__C0_base::deepseek_r1,1,grounding_system_prompt_vs_instruction_1,C0_base,base,deepseek_r1,DeepSeek R1,5.0;4.0;4.0,4.0
+grounding_system_prompt_vs_instruction_1__C0_base::gpt4o,1,grounding_system_prompt_vs_instruction_1,C0_base,base,gpt4o,GPT-4o,3.0;3.0;3.0,3.0
+grounding_system_prompt_vs_instruction_1__C0_base::o3_mini,1,grounding_system_prompt_vs_instruction_1,C0_base,base,o3_mini,o3-mini,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_1__character_swap::deepseek_v3,1,grounding_system_prompt_vs_instruction_1,C1_character_swap,character_swap,deepseek_v3,DeepSeek V3,5.0;4.0;4.0,4.0
+grounding_system_prompt_vs_instruction_1__character_swap::deepseek_r1,1,grounding_system_prompt_vs_instruction_1,C1_character_swap,character_swap,deepseek_r1,DeepSeek R1,5.0;5.0;4.0,5.0
+grounding_system_prompt_vs_instruction_1__character_swap::gpt4o,1,grounding_system_prompt_vs_instruction_1,C1_character_swap,character_swap,gpt4o,GPT-4o,3.0;3.0;3.0,3.0
+grounding_system_prompt_vs_instruction_1__character_swap::o3_mini,1,grounding_system_prompt_vs_instruction_1,C1_character_swap,character_swap,o3_mini,o3-mini,5.0;4.0;4.0,4.0
+grounding_system_prompt_vs_instruction_1__C2_lexical_substitution::deepseek_v3,1,grounding_system_prompt_vs_instruction_1,C2_lexical_substitution,lexical_substitution,deepseek_v3,DeepSeek V3,5.0;4.0;4.0,4.0
+grounding_system_prompt_vs_instruction_1__C2_lexical_substitution::deepseek_r1,1,grounding_system_prompt_vs_instruction_1,C2_lexical_substitution,lexical_substitution,deepseek_r1,DeepSeek R1,5.0;4.0;4.0,4.0
+grounding_system_prompt_vs_instruction_1__C2_lexical_substitution::gpt4o,1,grounding_system_prompt_vs_instruction_1,C2_lexical_substitution,lexical_substitution,gpt4o,GPT-4o,3.0;3.0;3.0,3.0
+grounding_system_prompt_vs_instruction_1__C2_lexical_substitution::o3_mini,1,grounding_system_prompt_vs_instruction_1,C2_lexical_substitution,lexical_substitution,o3_mini,o3-mini,5.0;4.0;4.0,4.0
+grounding_system_prompt_vs_instruction_2__C0_base::deepseek_v3,2,grounding_system_prompt_vs_instruction_2,C0_base,base,deepseek_v3,DeepSeek V3,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_2__C0_base::deepseek_r1,2,grounding_system_prompt_vs_instruction_2,C0_base,base,deepseek_r1,DeepSeek R1,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_2__C0_base::gpt4o,2,grounding_system_prompt_vs_instruction_2,C0_base,base,gpt4o,GPT-4o,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_2__C0_base::o3_mini,2,grounding_system_prompt_vs_instruction_2,C0_base,base,o3_mini,o3-mini,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_2__character_swap::deepseek_v3,2,grounding_system_prompt_vs_instruction_2,C1_character_swap,character_swap,deepseek_v3,DeepSeek V3,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_2__character_swap::deepseek_r1,2,grounding_system_prompt_vs_instruction_2,C1_character_swap,character_swap,deepseek_r1,DeepSeek R1,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_2__character_swap::gpt4o,2,grounding_system_prompt_vs_instruction_2,C1_character_swap,character_swap,gpt4o,GPT-4o,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_2__character_swap::o3_mini,2,grounding_system_prompt_vs_instruction_2,C1_character_swap,character_swap,o3_mini,o3-mini,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_2__C2_lexical_substitution::deepseek_v3,2,grounding_system_prompt_vs_instruction_2,C2_lexical_substitution,lexical_substitution,deepseek_v3,DeepSeek V3,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_2__C2_lexical_substitution::deepseek_r1,2,grounding_system_prompt_vs_instruction_2,C2_lexical_substitution,lexical_substitution,deepseek_r1,DeepSeek R1,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_2__C2_lexical_substitution::gpt4o,2,grounding_system_prompt_vs_instruction_2,C2_lexical_substitution,lexical_substitution,gpt4o,GPT-4o,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_2__C2_lexical_substitution::o3_mini,2,grounding_system_prompt_vs_instruction_2,C2_lexical_substitution,lexical_substitution,o3_mini,o3-mini,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_3__C0_base::deepseek_v3,3,grounding_system_prompt_vs_instruction_3,C0_base,base,deepseek_v3,DeepSeek V3,1.0;1.0;1.0,1.0
+grounding_system_prompt_vs_instruction_3__C0_base::deepseek_r1,3,grounding_system_prompt_vs_instruction_3,C0_base,base,deepseek_r1,DeepSeek R1,1.0;1.0;1.0,1.0
+grounding_system_prompt_vs_instruction_3__C0_base::gpt4o,3,grounding_system_prompt_vs_instruction_3,C0_base,base,gpt4o,GPT-4o,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_3__C0_base::o3_mini,3,grounding_system_prompt_vs_instruction_3,C0_base,base,o3_mini,o3-mini,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_3__character_swap::deepseek_v3,3,grounding_system_prompt_vs_instruction_3,C1_character_swap,character_swap,deepseek_v3,DeepSeek V3,1.0;1.0;1.0,1.0
+grounding_system_prompt_vs_instruction_3__character_swap::deepseek_r1,3,grounding_system_prompt_vs_instruction_3,C1_character_swap,character_swap,deepseek_r1,DeepSeek R1,1.0;1.0;1.0,1.0
+grounding_system_prompt_vs_instruction_3__character_swap::gpt4o,3,grounding_system_prompt_vs_instruction_3,C1_character_swap,character_swap,gpt4o,GPT-4o,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_3__character_swap::o3_mini,3,grounding_system_prompt_vs_instruction_3,C1_character_swap,character_swap,o3_mini,o3-mini,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_3__C2_lexical_substitution::deepseek_v3,3,grounding_system_prompt_vs_instruction_3,C2_lexical_substitution,lexical_substitution,deepseek_v3,DeepSeek V3,1.0;1.0;1.0,1.0
+grounding_system_prompt_vs_instruction_3__C2_lexical_substitution::deepseek_r1,3,grounding_system_prompt_vs_instruction_3,C2_lexical_substitution,lexical_substitution,deepseek_r1,DeepSeek R1,1.0;1.0;1.0,1.0
+grounding_system_prompt_vs_instruction_3__C2_lexical_substitution::gpt4o,3,grounding_system_prompt_vs_instruction_3,C2_lexical_substitution,lexical_substitution,gpt4o,GPT-4o,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_3__C2_lexical_substitution::o3_mini,3,grounding_system_prompt_vs_instruction_3,C2_lexical_substitution,lexical_substitution,o3_mini,o3-mini,4.0;4.0;5.0,4.0
+grounding_system_prompt_vs_instruction_5__C0_base::deepseek_v3,4,grounding_system_prompt_vs_instruction_5,C0_base,base,deepseek_v3,DeepSeek V3,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_5__C0_base::deepseek_r1,4,grounding_system_prompt_vs_instruction_5,C0_base,base,deepseek_r1,DeepSeek R1,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_5__C0_base::gpt4o,4,grounding_system_prompt_vs_instruction_5,C0_base,base,gpt4o,GPT-4o,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_5__C0_base::o3_mini,4,grounding_system_prompt_vs_instruction_5,C0_base,base,o3_mini,o3-mini,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_5__character_swap::deepseek_v3,4,grounding_system_prompt_vs_instruction_5,C1_character_swap,character_swap,deepseek_v3,DeepSeek V3,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_5__character_swap::deepseek_r1,4,grounding_system_prompt_vs_instruction_5,C1_character_swap,character_swap,deepseek_r1,DeepSeek R1,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_5__character_swap::gpt4o,4,grounding_system_prompt_vs_instruction_5,C1_character_swap,character_swap,gpt4o,GPT-4o,4.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_5__character_swap::o3_mini,4,grounding_system_prompt_vs_instruction_5,C1_character_swap,character_swap,o3_mini,o3-mini,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_5__C2_lexical_substitution::deepseek_v3,4,grounding_system_prompt_vs_instruction_5,C2_lexical_substitution,lexical_substitution,deepseek_v3,DeepSeek V3,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_5__C2_lexical_substitution::deepseek_r1,4,grounding_system_prompt_vs_instruction_5,C2_lexical_substitution,lexical_substitution,deepseek_r1,DeepSeek R1,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_5__C2_lexical_substitution::gpt4o,4,grounding_system_prompt_vs_instruction_5,C2_lexical_substitution,lexical_substitution,gpt4o,GPT-4o,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_5__C2_lexical_substitution::o3_mini,4,grounding_system_prompt_vs_instruction_5,C2_lexical_substitution,lexical_substitution,o3_mini,o3-mini,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_6__C0_base::deepseek_v3,5,grounding_system_prompt_vs_instruction_6,C0_base,base,deepseek_v3,DeepSeek V3,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_6__C0_base::deepseek_r1,5,grounding_system_prompt_vs_instruction_6,C0_base,base,deepseek_r1,DeepSeek R1,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_6__C0_base::gpt4o,5,grounding_system_prompt_vs_instruction_6,C0_base,base,gpt4o,GPT-4o,4.0;4.0;5.0,4.0
+grounding_system_prompt_vs_instruction_6__C0_base::o3_mini,5,grounding_system_prompt_vs_instruction_6,C0_base,base,o3_mini,o3-mini,4.0;4.0;5.0,4.0
+grounding_system_prompt_vs_instruction_6__character_swap::deepseek_v3,5,grounding_system_prompt_vs_instruction_6,C1_character_swap,character_swap,deepseek_v3,DeepSeek V3,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_6__character_swap::deepseek_r1,5,grounding_system_prompt_vs_instruction_6,C1_character_swap,character_swap,deepseek_r1,DeepSeek R1,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_6__character_swap::gpt4o,5,grounding_system_prompt_vs_instruction_6,C1_character_swap,character_swap,gpt4o,GPT-4o,4.0;4.0;4.0,4.0
+grounding_system_prompt_vs_instruction_6__character_swap::o3_mini,5,grounding_system_prompt_vs_instruction_6,C1_character_swap,character_swap,o3_mini,o3-mini,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_6__C2_lexical_substitution::deepseek_v3,5,grounding_system_prompt_vs_instruction_6,C2_lexical_substitution,lexical_substitution,deepseek_v3,DeepSeek V3,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_6__C2_lexical_substitution::deepseek_r1,5,grounding_system_prompt_vs_instruction_6,C2_lexical_substitution,lexical_substitution,deepseek_r1,DeepSeek R1,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_6__C2_lexical_substitution::gpt4o,5,grounding_system_prompt_vs_instruction_6,C2_lexical_substitution,lexical_substitution,gpt4o,GPT-4o,4.0;4.0;5.0,4.0
+grounding_system_prompt_vs_instruction_6__C2_lexical_substitution::o3_mini,5,grounding_system_prompt_vs_instruction_6,C2_lexical_substitution,lexical_substitution,o3_mini,o3-mini,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_7__C0_base::deepseek_v3,6,grounding_system_prompt_vs_instruction_7,C0_base,base,deepseek_v3,DeepSeek V3,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_7__C0_base::deepseek_r1,6,grounding_system_prompt_vs_instruction_7,C0_base,base,deepseek_r1,DeepSeek R1,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_7__C0_base::gpt4o,6,grounding_system_prompt_vs_instruction_7,C0_base,base,gpt4o,GPT-4o,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_7__C0_base::o3_mini,6,grounding_system_prompt_vs_instruction_7,C0_base,base,o3_mini,o3-mini,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_7__character_swap::deepseek_v3,6,grounding_system_prompt_vs_instruction_7,C1_character_swap,character_swap,deepseek_v3,DeepSeek V3,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_7__character_swap::deepseek_r1,6,grounding_system_prompt_vs_instruction_7,C1_character_swap,character_swap,deepseek_r1,DeepSeek R1,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_7__character_swap::gpt4o,6,grounding_system_prompt_vs_instruction_7,C1_character_swap,character_swap,gpt4o,GPT-4o,4.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_7__character_swap::o3_mini,6,grounding_system_prompt_vs_instruction_7,C1_character_swap,character_swap,o3_mini,o3-mini,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_7__C2_lexical_substitution::deepseek_v3,6,grounding_system_prompt_vs_instruction_7,C2_lexical_substitution,lexical_substitution,deepseek_v3,DeepSeek V3,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_7__C2_lexical_substitution::deepseek_r1,6,grounding_system_prompt_vs_instruction_7,C2_lexical_substitution,lexical_substitution,deepseek_r1,DeepSeek R1,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_7__C2_lexical_substitution::gpt4o,6,grounding_system_prompt_vs_instruction_7,C2_lexical_substitution,lexical_substitution,gpt4o,GPT-4o,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_7__C2_lexical_substitution::o3_mini,6,grounding_system_prompt_vs_instruction_7,C2_lexical_substitution,lexical_substitution,o3_mini,o3-mini,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_8__C0_base::deepseek_v3,7,grounding_system_prompt_vs_instruction_8,C0_base,base,deepseek_v3,DeepSeek V3,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_8__C0_base::deepseek_r1,7,grounding_system_prompt_vs_instruction_8,C0_base,base,deepseek_r1,DeepSeek R1,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_8__C0_base::gpt4o,7,grounding_system_prompt_vs_instruction_8,C0_base,base,gpt4o,GPT-4o,4.0;5.0;4.0,4.0
+grounding_system_prompt_vs_instruction_8__C0_base::o3_mini,7,grounding_system_prompt_vs_instruction_8,C0_base,base,o3_mini,o3-mini,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_8__character_swap::deepseek_v3,7,grounding_system_prompt_vs_instruction_8,C1_character_swap,character_swap,deepseek_v3,DeepSeek V3,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_8__character_swap::deepseek_r1,7,grounding_system_prompt_vs_instruction_8,C1_character_swap,character_swap,deepseek_r1,DeepSeek R1,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_8__character_swap::gpt4o,7,grounding_system_prompt_vs_instruction_8,C1_character_swap,character_swap,gpt4o,GPT-4o,4.0;5.0;4.0,4.0
+grounding_system_prompt_vs_instruction_8__character_swap::o3_mini,7,grounding_system_prompt_vs_instruction_8,C1_character_swap,character_swap,o3_mini,o3-mini,4.0;5.0;4.0,4.0
+grounding_system_prompt_vs_instruction_8__C2_lexical_substitution::deepseek_v3,7,grounding_system_prompt_vs_instruction_8,C2_lexical_substitution,lexical_substitution,deepseek_v3,DeepSeek V3,5.0;5.0;4.0,5.0
+grounding_system_prompt_vs_instruction_8__C2_lexical_substitution::deepseek_r1,7,grounding_system_prompt_vs_instruction_8,C2_lexical_substitution,lexical_substitution,deepseek_r1,DeepSeek R1,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_8__C2_lexical_substitution::gpt4o,7,grounding_system_prompt_vs_instruction_8,C2_lexical_substitution,lexical_substitution,gpt4o,GPT-4o,4.0;4.0;4.0,4.0
+grounding_system_prompt_vs_instruction_8__C2_lexical_substitution::o3_mini,7,grounding_system_prompt_vs_instruction_8,C2_lexical_substitution,lexical_substitution,o3_mini,o3-mini,5.0;5.0;4.0,5.0
+grounding_system_prompt_vs_instruction_9__C0_base::deepseek_v3,8,grounding_system_prompt_vs_instruction_9,C0_base,base,deepseek_v3,DeepSeek V3,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_9__C0_base::deepseek_r1,8,grounding_system_prompt_vs_instruction_9,C0_base,base,deepseek_r1,DeepSeek R1,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_9__C0_base::gpt4o,8,grounding_system_prompt_vs_instruction_9,C0_base,base,gpt4o,GPT-4o,4.0;4.0;5.0,4.0
+grounding_system_prompt_vs_instruction_9__C0_base::o3_mini,8,grounding_system_prompt_vs_instruction_9,C0_base,base,o3_mini,o3-mini,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_9__character_swap::deepseek_v3,8,grounding_system_prompt_vs_instruction_9,C1_character_swap,character_swap,deepseek_v3,DeepSeek V3,5.0;4.0;5.0,5.0
+grounding_system_prompt_vs_instruction_9__character_swap::deepseek_r1,8,grounding_system_prompt_vs_instruction_9,C1_character_swap,character_swap,deepseek_r1,DeepSeek R1,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_9__character_swap::gpt4o,8,grounding_system_prompt_vs_instruction_9,C1_character_swap,character_swap,gpt4o,GPT-4o,4.0;4.0;5.0,4.0
+grounding_system_prompt_vs_instruction_9__character_swap::o3_mini,8,grounding_system_prompt_vs_instruction_9,C1_character_swap,character_swap,o3_mini,o3-mini,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_9__C2_lexical_substitution::deepseek_v3,8,grounding_system_prompt_vs_instruction_9,C2_lexical_substitution,lexical_substitution,deepseek_v3,DeepSeek V3,4.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_9__C2_lexical_substitution::deepseek_r1,8,grounding_system_prompt_vs_instruction_9,C2_lexical_substitution,lexical_substitution,deepseek_r1,DeepSeek R1,5.0;5.0;5.0,5.0
+grounding_system_prompt_vs_instruction_9__C2_lexical_substitution::gpt4o,8,grounding_system_prompt_vs_instruction_9,C2_lexical_substitution,lexical_substitution,gpt4o,GPT-4o,4.0;4.0;5.0,4.0
+grounding_system_prompt_vs_instruction_9__C2_lexical_substitution::o3_mini,8,grounding_system_prompt_vs_instruction_9,C2_lexical_substitution,lexical_substitution,o3_mini,o3-mini,5.0;4.0;5.0,5.0

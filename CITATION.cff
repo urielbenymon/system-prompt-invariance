@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "System-Prompt Invariance for LLM-as-Judge Evaluation"
+repository-code: "https://github.com/urielbenymon/system-prompt-invariance"
+license: MIT
+authors:
+  - family-names: Benymon
+    given-names: Uriel
+    orcid: "https://orcid.org/0009-0008-0252-6934"
+  - family-names: Wei
+    given-names: Albert Ming
+  - family-names: Guo
+    given-names: Zhicheng
+  - family-names: Qiu
+    given-names: Xinbei
+  - family-names: Resnick
+    given-names: Clara
+preferred-citation:
+  type: conference-paper
+  title: "System-Prompt Invariance for LLM-as-Judge Evaluation: A Linguistic Robustness Study"
+  collection-title: "NeurIPS 2026 Workshop on Linguistic Principles for Foundation Models (LP4FM)"
+  year: 2026
+  authors:
+    - family-names: Benymon
+      given-names: Uriel
+    - family-names: Wei
+      given-names: Albert Ming
+    - family-names: Guo
+      given-names: Zhicheng
+    - family-names: Qiu
+      given-names: Xinbei
+    - family-names: Resnick
+      given-names: Clara

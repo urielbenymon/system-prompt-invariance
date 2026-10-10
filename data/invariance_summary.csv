@@ -1,0 +1,13 @@
+response_model_key,condition_code,n,mean_score,std_score,delta_from_C0_base
+deepseek_r1,C0_base,9,4.4444,1.2571,0.0
+deepseek_r1,C1_character_swap,9,4.3333,1.3333,-0.1111
+deepseek_r1,C2_lexical_substitution,9,4.2222,1.3147,-0.2222
+deepseek_v3,C0_base,9,4.4444,1.2571,0.0
+deepseek_v3,C1_character_swap,9,4.2222,1.3147,-0.2222
+deepseek_v3,C2_lexical_substitution,9,4.2222,1.3147,-0.2222
+gpt4o,C0_base,9,4.4444,0.6849,0.0
+gpt4o,C1_character_swap,9,4.4444,0.6849,0.0
+gpt4o,C2_lexical_substitution,9,4.4444,0.6849,0.0
+o3_mini,C0_base,9,4.8889,0.3143,0.0
+o3_mini,C1_character_swap,9,4.5556,0.6849,-0.3333
+o3_mini,C2_lexical_substitution,9,4.7778,0.4157,-0.1111

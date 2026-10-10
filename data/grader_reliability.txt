@@ -1,0 +1,11 @@
+LLM-grader reliability (Krippendorff's alpha)
+==================================================
+Method: krippendorff package (interval)
+Units (response cells): 108
+Coders (graders) per unit: 3
+Alpha: 0.7773
+
+Note: this is grader-to-grader (LLM vs LLM) reliability, computed
+from the 324 automated judgments only. It is NOT the human-vs-LLM
+reliability figure, which still requires the pending human grading
+data (162 judgments, 3 human raters, DeepSeek-only subset).

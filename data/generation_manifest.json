@@ -1,0 +1,85 @@
+{
+  "experiment_stage": "official_response_generation",
+  "created_at_utc": "2026-08-23T19:50:40.993043+00:00",
+  "master_file": "prompts_master_final.jsonl",
+  "master_file_sha256": "95008a1bb23e8d2a0dc555d0fd1d3f7c6b29bc0cddb7889e85cf326ab8b5e8af",
+  "master_rows": 27,
+  "families": 9,
+  "conditions": [
+    "C0_base",
+    "C1_character_swap",
+    "C2_lexical_substitution"
+  ],
+  "response_models": 4,
+  "expected_generation_cells": 108,
+  "openrouter_endpoint": "https://openrouter.ai/api/v1/chat/completions",
+  "provider_fallbacks_allowed": false,
+  "max_completion_tokens": 4096,
+  "request_timeout_seconds": 300,
+  "max_attempts": 3,
+  "models": [
+    {
+      "key": "deepseek_v3",
+      "name": "DeepSeek V3",
+      "id": "deepseek/deepseek-chat",
+      "provider": "novita",
+      "provider_name": "NovitaAI",
+      "temperature": 0.0,
+      "reasoning": null
+    },
+    {
+      "key": "deepseek_r1",
+      "name": "DeepSeek R1",
+      "id": "deepseek/deepseek-r1",
+      "provider": "novita",
+      "provider_name": "NovitaAI",
+      "temperature": 0.0,
+      "reasoning": null
+    },
+    {
+      "key": "gpt4o",
+      "name": "GPT-4o",
+      "id": "openai/gpt-4o",
+      "provider": "openai",
+      "provider_name": "OpenAI",
+      "temperature": 0.0,
+      "reasoning": null
+    },
+    {
+      "key": "o3_mini",
+      "name": "o3-mini",
+      "id": "openai/o3-mini",
+      "provider": "openai",
+      "provider_name": "OpenAI",
+      "temperature": null,
+      "reasoning": {
+        "effort": "medium"
+      }
+    }
+  ],
+  "pilot_decisions": {
+    "deepseek_r1_temperature": 0.0,
+    "r1_selection_basis": "Retained after dual-temperature pilot (0.0 vs 0.6) found no targeted repetition/looping/incoherence pathology at temperature 0.",
+    "token_cap_basis": "Universal completion cap fixed prospectively at 4096 after retained pilot configurations had maximum observed completion usage of 2097 tokens.",
+    "pilot_data_excluded_from_primary_analysis": true
+  },
+  "retry_policy": {
+    "successful_cells_regenerated_automatically": false,
+    "retryable": [
+      "timeout",
+      "HTTP 408",
+      "HTTP 429",
+      "HTTP 5xx",
+      "connection_error",
+      "invalid_json_response",
+      "missing_choices"
+    ]
+  },
+  "environment": {
+    "python_version": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "requests_version": "2.34.2"
+  },
+  "script_file": "scripts/01_generate_official_responses.py",
+  "script_file_sha256": "5800cd7a8c508e92b9ca955cf58465ff0812e5dfb5b2f4e47bba0a94767ae455"
+}

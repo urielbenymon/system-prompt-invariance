@@ -1,0 +1,69 @@
+{
+  "purpose": "Pilot token-cap calibration and DeepSeek-R1 temperature selection only; not for official grading or final analysis.",
+  "created_at_utc": "2026-08-23T17:08:01.272684+00:00",
+  "master_file": "prompts_master_final.jsonl",
+  "master_file_sha256": "95008a1bb23e8d2a0dc555d0fd1d3f7c6b29bc0cddb7889e85cf326ab8b5e8af",
+  "master_rows": 27,
+  "pilot_conditions": [
+    "C0_base",
+    "C1_character_swap",
+    "C2_lexical_substitution"
+  ],
+  "pilot_rows_used": 27,
+  "expected_generation_cells": 135,
+  "openrouter_endpoint": "https://openrouter.ai/api/v1/chat/completions",
+  "pilot_max_tokens": 16000,
+  "request_timeout_seconds": 300,
+  "max_attempts": 3,
+  "models": [
+    {
+      "key": "deepseek_v3_temp0",
+      "name": "DeepSeek V3 (temp=0)",
+      "id": "deepseek/deepseek-chat",
+      "provider": "novita",
+      "provider_name": "NovitaAI",
+      "temperature": 0.0,
+      "reasoning": null
+    },
+    {
+      "key": "deepseek_r1_temp0",
+      "name": "DeepSeek R1 (temp=0)",
+      "id": "deepseek/deepseek-r1",
+      "provider": "novita",
+      "provider_name": "NovitaAI",
+      "temperature": 0.0,
+      "reasoning": null
+    },
+    {
+      "key": "deepseek_r1_temp06",
+      "name": "DeepSeek R1 (temp=0.6)",
+      "id": "deepseek/deepseek-r1",
+      "provider": "novita",
+      "provider_name": "NovitaAI",
+      "temperature": 0.6,
+      "reasoning": null
+    },
+    {
+      "key": "gpt4o_temp0",
+      "name": "GPT-4o (temp=0)",
+      "id": "openai/gpt-4o",
+      "provider": "openai",
+      "provider_name": "OpenAI",
+      "temperature": 0.0,
+      "reasoning": null
+    },
+    {
+      "key": "o3_mini_medium",
+      "name": "o3-mini (medium reasoning)",
+      "id": "openai/o3-mini",
+      "provider": "openai",
+      "provider_name": "OpenAI",
+      "temperature": null,
+      "reasoning": {
+        "effort": "medium"
+      }
+    }
+  ],
+  "r1_temperature_selection_rule": "Manually inspect all 27 DeepSeek-R1 temperature-0 responses across C0, C1, and C2 for visible repetition, looping, or incoherence, and compare them against the corresponding 27 temperature-0.6 responses. If any temperature-0 response exhibits the targeted pathology, select temperature 0.6 for the official experiment; otherwise retain temperature 0 for consistency with the other temperature-controlled models. Do not choose based on token count alone.",
+  "token_cap_rule": "After choosing the official R1 temperature, use only the token data from DeepSeek V3 temp=0, GPT-4o temp=0, o3-mini medium reasoning, and DeepSeek R1 at the chosen temperature to calibrate the final universal token cap. Do not pool both R1 temperatures into the cap calculation."
+}

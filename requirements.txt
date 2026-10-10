@@ -1,0 +1,8 @@
+# Tested with Python 3.14
+requests==2.34.2       # API stages (generation, grading)
+datasets==5.0.1        # 01_load_biggen.py
+nltk==3.10.3           # WordNet lookup; run: python -m nltk.downloader wordnet
+numpy==2.5.2
+scipy==1.18.1          # significance tests
+krippendorff==0.8.2    # reliability
+openpyxl==3.1.5        # reading rater sheets

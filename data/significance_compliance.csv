@@ -1,0 +1,5 @@
+test,grader_1,grader_2,statistic_or_Q,df,discordant_1_only,discordant_2_only,p_raw,p_holm
+cochrans_q,,,59.3704,2,,,0.000000,
+mcnemar_exact,claude_opus_4,gpt4_turbo,,,19,0,0.000004,0.000008
+mcnemar_exact,claude_opus_4,llama_3_1_70b_instruct,,,46,0,0.000000,0.000000
+mcnemar_exact,gpt4_turbo,llama_3_1_70b_instruct,,,35,8,0.000042,0.000042
